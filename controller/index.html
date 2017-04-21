@@ -129,7 +129,7 @@
             });
             
             pubnub.subscribe({
-                channel: 'gpio-raspberry-control',
+                channel: 'Channel-6zcjmrrva',
                 message: function(m){
                 
                     console.log(m)
@@ -163,7 +163,7 @@
                     pubnub.publish(
                     
                         { 
-                            channel : 'gpio-raspberry-control' ,
+                            channel : 'Channel-6zcjmrrva' ,
                             message :  pubmsg
                             
                         }
